@@ -26,9 +26,9 @@ public class FillExpenseNotificationReceiver extends BroadcastReceiver {
 
     NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
 
-    Notification notification = builder.setContentTitle("Fill Today's Expense")
-      .setContentText("Never miss an expense, fill it now.")
-      .setTicker("Every expense is important!")
+    Notification notification = builder.setContentTitle("Preencha as despesas de hoje")
+      .setContentText("Nunca perca uma despesa, preencha-a agora.")
+      .setTicker("Cada despesa é importante!")
       .setSmallIcon(R.mipmap.ic_launcher)
       .setAutoCancel(true)
       .setContentIntent(pendingIntent).build();

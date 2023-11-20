@@ -6,9 +6,9 @@ import ajitsingh.com.expensemanager.view.NavigationDrawerItemView;
 
 public class NavigationDrawerPresenter {
 
-  public static final String THIS_WEEK = "This Week";
-  public static final String THIS_MONTH = "This Month";
-  public static final String HOME = "Home";
+  public static final String THIS_WEEK = "Semana Atual";
+  public static final String THIS_MONTH = "Mês Atual";
+  public static final String HOME = "Inicio";
   private NavigationDrawerItemView view;
 
   public NavigationDrawerPresenter(NavigationDrawerItemView view) {

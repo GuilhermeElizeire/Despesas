@@ -207,12 +207,12 @@ public class MainActivity extends FragmentActivity implements NavigationDrawerIt
   private void addTabs() {
     ActionBar.Tab addNewExpenseTab = actionBar.newTab();
     addNewExpenseTab.setTabListener(this);
-    addNewExpenseTab.setText("Add New");
+    addNewExpenseTab.setText("Adicionar");
     actionBar.addTab(addNewExpenseTab);
 
     ActionBar.Tab todayTab = actionBar.newTab();
     todayTab.setTabListener(this);
-    todayTab.setText("Today");
+    todayTab.setText("Hoje");
     actionBar.addTab(todayTab);
   }
 

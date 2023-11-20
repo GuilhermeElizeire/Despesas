@@ -39,7 +39,7 @@ public class TodaysExpenseFragment extends Fragment implements TodaysExpenseView
   @Override
   public void displayTotalExpense(Long totalExpense) {
     TextView totalExpenseTextBox = (TextView) getActivity().findViewById(R.id.total_expense);
-    totalExpenseTextBox.setText(getActivity().getString(R.string.total_expense) + " " + getActivity().getString(R.string.rupee_sym) + totalExpense.toString());
+    totalExpenseTextBox.setText(getActivity().getString(R.string.total_expense) + " " + "R$ " + totalExpense.toString());
   }
 
   @Override
