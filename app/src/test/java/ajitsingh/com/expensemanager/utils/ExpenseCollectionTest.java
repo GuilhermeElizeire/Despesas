@@ -20,9 +20,9 @@ public class ExpenseCollectionTest {
 
   @Before
   public void setUp() throws Exception {
-    food = new Expense(100l, "Food", "31-09-2015");
-    travel = new Expense(150l, "Travel", "02-10-2015");
-    Expense movie = new Expense(100l, "Movie", "02-10-2015");
+    food = new Expense(100l, "Alimento", "31-09-2015");
+    travel = new Expense(150l, "Viagem", "02-10-2015");
+    Expense movie = new Expense(100l, "Filme", "02-10-2015");
     expenseCollection = new ExpenseCollection(asList(food, movie, travel));
   }
 

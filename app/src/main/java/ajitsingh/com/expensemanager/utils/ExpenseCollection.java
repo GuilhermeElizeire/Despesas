@@ -43,7 +43,7 @@ public class ExpenseCollection {
   public List<Expense> withoutMoneyTransfer() {
     ArrayList<Expense> expenses = new ArrayList<>();
     for (Expense expense : this.expenses) {
-      if(!Objects.equals(expense.getType(), "Money-Transfer"))
+      if(!Objects.equals(expense.getType(), "PIX"))
         expenses.add(expense);
     }
 

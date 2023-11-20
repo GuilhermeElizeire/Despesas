@@ -47,7 +47,7 @@ public class CurrentMonthExpenseFragment extends Fragment implements CurrentMont
   @Override
   public void displayTotalExpense(Long totalExpense) {
     TextView totalExpenseTextBox = (TextView) getActivity().findViewById(R.id.current_months_total_expense);
-    totalExpenseTextBox.setText(getString(R.string.total_expense) + " " + getString(R.string.rupee_sym) + totalExpense);
+    totalExpenseTextBox.setText(getString(R.string.total_expense) + " " + "R$"+ (R.string.rupee_sym) + totalExpense);
   }
 
   @Override
